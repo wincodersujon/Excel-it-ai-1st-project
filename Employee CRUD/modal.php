@@ -26,7 +26,7 @@
  
 <!-- Edit -->
     <div class="modal fade" id="editModal<?php echo $row['id']; ?>" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Update Employee</h5>
@@ -56,6 +56,7 @@
                     <div class="col-md-10">
                         <input type="text" class="form-control" name="dis_name">
                             <option value="<?php echo $erow['dis_name']; ?>">Select District</option>
+                            
                         </input>
                     </div>
                 </div>
